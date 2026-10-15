@@ -8,9 +8,9 @@ This project explores sales transaction data using Microsoft Excel. It focuses o
 
 - Analyze purchase amounts across different purchase modes.
 - Compare transaction counts across sales channels.
-- Explore purchase patterns by customer job title.
+- Explore purchasing patterns across customer job titles.
 - Summarize purchase amounts by date.
-- Identify missing values and data-quality issues.
+- Understand purchase behavior using Excel-based analysis.
 
 ## 🛠️ Tools & Skills
 
@@ -23,22 +23,28 @@ This project explores sales transaction data using Microsoft Excel. It focuses o
 ## 📂 Workbook Contents
 
 ### 1. Sales
-Contains the transaction-level sales data used for analysis, including transaction dates, customer details, purchase modes, and purchase amounts.
+
+Contains the transaction-level data used for analysis, including transaction dates, customer details, purchase modes, and purchase amounts.
 
 ### 2. Pivot Table
+
 Summarizes purchase amounts by date using PivotTables.
 
 ### 3. Purchase Modes
+
 Compares transaction counts and recorded purchase amounts across four purchasing channels:
+
 - Phone-in
 - In-store
 - App
 - Website
 
 ### 4. Customer Analysis
+
 Explores purchase amounts across different customer job titles.
 
 ### 5. Subbarao Analysis
+
 Demonstrates customer-level analysis using conditional Excel formulas, including `COUNTIFS`, `SUMIFS`, and `MAXIFS`.
 
 ## 🔍 Key Observations
@@ -47,33 +53,30 @@ Demonstrates customer-level analysis using conditional Excel formulas, including
 - The website channel contains 182 transaction records.
 - The app channel contains 130 transaction records.
 - The dataset contains 443 transaction records spanning December 2023 to February 2024.
-- A total of 117 transaction records have missing purchase amounts that require further investigation.
+- Some records have blank purchase amounts because no purchase was made.
 
-## ⚠️ Data Limitations
+## 📊 Data Interpretation
 
-Some transaction records contain missing purchase amounts. Therefore, totals based on recorded amounts may not represent the full value of all transactions.
-
-Missing values should be investigated rather than automatically treated as zero.
+Blank purchase amounts represent records where no purchase was made, according to the dataset's interpretation. These entries should not automatically be treated as missing data or assigned a purchase value of zero without considering the analysis requirements.
 
 ## 📚 Skills Practiced
 
-- Organizing and analyzing transaction data
+- Organizing and analyzing transaction data in Excel
 - Creating and interpreting PivotTables
-- Using Excel formulas for conditional calculations
+- Using conditional formulas for calculations
 - Comparing purchase channels and customer segments
-- Identifying data-quality issues
-- Summarizing findings from sales data
+- Summarizing sales data to identify patterns
+- Presenting analytical findings in a structured workbook
 
 ## 🚀 Future Improvements
 
 - Create an interactive sales dashboard.
 - Add monthly sales trend visualizations.
-- Investigate missing purchase amounts.
-- Expand the analysis using SQL and Power BI.
+- Explore additional customer and purchasing patterns.
+- Extend the analysis using SQL and Power BI.
 
 ## 👩‍💻 Author
 
 **Vishnu Bhargavi**
 
 GitHub: [@vishnubhargavi30](https://github.com/vishnubhargavi30)
-
